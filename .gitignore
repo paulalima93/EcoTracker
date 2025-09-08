@@ -16,15 +16,13 @@
 **/build/
 
 # ===============================================
-# Arquivos de Configuração Local (NUNCA COMPARTILHAR!)
+# Arquivos de Configuração Local
 # ===============================================
-# Contém o caminho para o SDK local e outras informações sensíveis
 local.properties
 
 # ===============================================
-# Arquivos do Android Studio e IntelliJ (IDE)
+# Arquivos do Android Studio e IntelliJ
 # ===============================================
-# Configurações específicas do usuário, histórico local, etc.
 .idea/
 *.iml
 *.ipr
@@ -34,9 +32,8 @@ captures/
 profiler/
 
 # ===============================================
-# Arquivos de Keystore e Assinatura (MUITO IMPORTANTE IGNORAR!)
+# Arquivos de Keystore e Assinatura
 # ===============================================
-# Se você vazar sua chave de assinatura, qualquer um pode publicar apps em seu nome.
 *.jks
 *.keystore
 keystore.properties
@@ -44,7 +41,6 @@ keystore.properties
 # ===============================================
 # Outros
 # ===============================================
-# Arquivos gerados pelo Google Services
 google-services.json
 
 # Arquivos de log do Crashlytics
