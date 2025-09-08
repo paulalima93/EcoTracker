@@ -1,0 +1,56 @@
+# ===============================================
+# Arquivos gerados pelo Gradle e pelo Build
+# ===============================================
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.swp
+
+# Pasta de Build
+/build/
+
+# Cache do Gradle
+.gradle/
+**/build/
+
+# ===============================================
+# Arquivos de Configuração Local (NUNCA COMPARTILHAR!)
+# ===============================================
+# Contém o caminho para o SDK local e outras informações sensíveis
+local.properties
+
+# ===============================================
+# Arquivos do Android Studio e IntelliJ (IDE)
+# ===============================================
+# Configurações específicas do usuário, histórico local, etc.
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+captures/
+profiler/
+
+# ===============================================
+# Arquivos de Keystore e Assinatura (MUITO IMPORTANTE IGNORAR!)
+# ===============================================
+# Se você vazar sua chave de assinatura, qualquer um pode publicar apps em seu nome.
+*.jks
+*.keystore
+keystore.properties
+
+# ===============================================
+# Outros
+# ===============================================
+# Arquivos gerados pelo Google Services
+google-services.json
+
+# Arquivos de log do Crashlytics
+*crashlytics*.properties
+*crashlytics-build.properties
+fabric.properties
+
+# A pasta de releases
+/release/

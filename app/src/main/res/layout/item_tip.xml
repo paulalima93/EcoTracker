@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardView.EcoTracker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <View
+            android:id="@+id/category_indicator"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:background="@color/green_primary" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tip_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.EcoTracker.Headline2"
+                    android:textSize="18sp"
+                    tools:text="Use transporte público" />
+
+                <TextView
+                    android:id="@+id/impact_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bg_impact_badge"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp"
+                    android:textColor="@color/success"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:text="Alto Impacto" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tip_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textAppearance="@style/TextAppearance.EcoTracker.Body1"
+                tools:text="Opte por ônibus, metrô ou trem em vez do carro particular. Isso pode reduzir suas emissões de transporte em até 45%." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

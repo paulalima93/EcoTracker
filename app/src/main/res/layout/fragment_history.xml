@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_light"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.fragments.HistoryFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history_title"
+        android:textAppearance="@style/TextAppearance.EcoTracker.Headline1" />
+
+    <TextView
+        android:id="@+id/empty_state_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="@string/history_no_data"
+        android:textAppearance="@style/TextAppearance.EcoTracker.Body1" />
+
+</LinearLayout>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Theme.EcoTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_primary_light</item>
+        <item name="colorPrimaryVariant">@color/green_primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_secondary_light</item>
+        <item name="colorSecondaryVariant">@color/blue_secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Accent color -->
+        <item name="colorAccent">@color/orange_accent_light</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Error color -->
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">@color/black</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">#121212</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
+

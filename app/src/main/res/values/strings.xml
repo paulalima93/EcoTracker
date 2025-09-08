@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoTracker</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_calculator">Calculadora</string>
+    <string name="nav_history">Histórico</string>
+    <string name="nav_tips">Dicas</string>
+    <string name="nav_settings">Configurações</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Seu Impacto Ambiental</string>
+    <string name="dashboard_carbon_footprint">Pegada de Carbono</string>
+    <string name="dashboard_monthly_emissions">Emissões Mensais</string>
+    <string name="dashboard_co2_unit">kg CO₂</string>
+    <string name="dashboard_this_month">Este Mês</string>
+    <string name="dashboard_last_month">Mês Passado</string>
+    
+    <!-- Calculator -->
+    <string name="calculator_title">Calculadora de Impacto</string>
+    <string name="calculator_transport">Transporte</string>
+    <string name="calculator_energy">Energia</string>
+    <string name="calculator_food">Alimentação</string>
+    <string name="calculator_consumption">Consumo</string>
+    <string name="calculator_calculate">Calcular</string>
+    <string name="calculator_distance">Distância (km)</string>
+    <string name="calculator_energy_consumption">Consumo de Energia (kWh)</string>
+    
+    <!-- History -->
+    <string name="history_title">Histórico de Emissões</string>
+    <string name="history_weekly">Semanal</string>
+    <string name="history_monthly">Mensal</string>
+    <string name="history_yearly">Anual</string>
+    <string name="history_no_data">Nenhum dado disponível</string>
+    
+    <!-- Tips -->
+    <string name="tips_title">Dicas Sustentáveis</string>
+    <string name="tips_transport_title">Transporte Sustentável</string>
+    <string name="tips_energy_title">Economia de Energia</string>
+    <string name="tips_food_title">Alimentação Consciente</string>
+    <string name="tips_consumption_title">Consumo Responsável</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_profile">Perfil</string>
+    <string name="settings_notifications">Notificações</string>
+    <string name="settings_units">Unidades</string>
+    <string name="settings_about">Sobre</string>
+    <string name="settings_privacy">Privacidade</string>
+    
+    <!-- Common -->
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="error">Erro</string>
+    <string name="loading">Carregando...</string>
+    <string name="retry">Tentar Novamente</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Bem-vindo ao EcoTracker</string>
+    <string name="onboarding_description">Monitore e reduza seu impacto ambiental com insights personalizados</string>
+    <string name="onboarding_get_started">Começar</string>
+    
+    <!-- Units -->
+    <string name="unit_kg_co2">kg CO₂</string>
+    <string name="unit_g_co2">g CO₂</string>
+    <string name="unit_t_co2">t CO₂</string>
+    <string name="unit_km">km</string>
+    <string name="unit_kwh">kWh</string>
+</resources>
+
